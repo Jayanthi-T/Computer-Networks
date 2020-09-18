@@ -1,0 +1,11 @@
+Interface: 10.0.15.202 --- 0x3
+  Internet Address      Physical Address        Type
+  10.0.15.1                    54-78-1a-1e-6a-4f        dynamic  
+  10.0.15.72                  00-13-20-b7-49-c9       dynamic  
+  10.0.15.253                00-16-76-bd-41-27      dynamic  
+  10.0.15.255                ff-ff-ff-ff-ff-ff               static   
+  224.0.0.22                  01-00-5e-00-00-16       static   
+  224.0.0.251                01-00-5e-00-00-fb        static   
+  224.0.0.252                01-00-5e-00-00-fc        static   
+  239.255.255.250        01-00-5e-7f-ff-fa          static   
+
