@@ -5,7 +5,7 @@ public class arp_rarp
 {
      private static final String Command = "arp -a";
     
-     public static void getARPTable(String cmd) throws Exception
+     public static void getARPTable(String cmd) throws Exception   
      {  
           File fp = new File("ARPTable.txt");
           FileWriter fw = new FileWriter(fp);   
