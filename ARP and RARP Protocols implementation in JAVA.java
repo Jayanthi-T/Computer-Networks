@@ -9,7 +9,7 @@ public class arp_rarp
      {  
           File fp = new File("ARPTable.txt");
           FileWriter fw = new FileWriter(fp);   
-
+    
           BufferedWriter bw = new BufferedWriter(fw);
          
           Process P = Runtime.getRuntime().exec(cmd);
