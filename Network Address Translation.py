@@ -58,4 +58,4 @@ if __name__== "__main__":
 			c = int(input("Do you want to delete IP?\n1. yes\n2. No"))
 			write(c)
 			break
-	print("exit")
+	print("exit") 
