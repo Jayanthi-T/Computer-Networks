@@ -8,7 +8,7 @@ def read():
 	for line in fl:
 		nat_table.append(line.split())
 	
-def write(val):
+def write(val): 
 	if val == 2:
 		with open("natt.txt", 'w') as f:
 			for ip in nat_table:
