@@ -7,7 +7,7 @@ public class arp_rarp
      public static void getARPTable(String cmd) throws Exception   
      {  
           File fp = new File("ARPTable.txt");
-          FileWriter fw = new FileWriter(fp);   
+          FileWriter fw = new FileWriter(fp);
     
           BufferedWriter bw = new BufferedWriter(fw);
          
