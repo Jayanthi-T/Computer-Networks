@@ -5,7 +5,6 @@ import java.util.*;
 public class Slide_Sender
 {
      Socket sender;
-   
      ObjectOutputStream out;
      ObjectInputStream in;
    
