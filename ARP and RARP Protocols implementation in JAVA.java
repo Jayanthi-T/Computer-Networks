@@ -8,9 +8,7 @@ public class arp_rarp
      {  
           File fp = new File("ARPTable.txt");
           FileWriter fw = new FileWriter(fp);
-    
           BufferedWriter bw = new BufferedWriter(fw);
-         
           Process P = Runtime.getRuntime().exec(cmd);
           Scanner S = new Scanner(P.getInputStream()).useDelimiter("\\A");
           
@@ -64,7 +62,6 @@ public class arp_rarp
          
           if((line == null))
               System.out.println("Not found");
-         
           fr.close(); 
           br.close();        
      }
@@ -72,14 +69,11 @@ public class arp_rarp
      public static void main(String as[]) throws Exception
      {
           getARPTable(Command);
-
           Scanner S = new Scanner(System.in);
-
           System.out.println("ARP Protocol.");
           System.out.print("Enter IP Address: ");
           String IP = S.nextLine();
           findMAC(IP);
-
           System.out.println("RARP Protocol.");
           System.out.print("Enter MAC Address: ");
           String MAC = S.nextLine();
