@@ -47,7 +47,6 @@ public class Slide_Sender
      public void run() throws IOException
      {
           sender = new Socket("localhost",1500);
-
           out = new ObjectOutputStream(sender.getOutputStream());
           in = new ObjectInputStream(sender.getInputStream());
        
