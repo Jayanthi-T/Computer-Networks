@@ -7,14 +7,11 @@ public class Slide_Sender
      Socket sender;
      ObjectOutputStream out;
      ObjectInputStream in;
-   
      String pkt;
      char data='a';
-    
      int SeqNum = 1, SWS = 5;
      int LAR = 0, LFS = 0;
      int NF;
-   
      Slide_Sender()
      {
      }
@@ -38,7 +35,6 @@ public class Slide_Sender
                         data++;
                         if(data=='f')
                              data='a';
-                            
                         SeqNum++;
                         out.flush();
                    }
