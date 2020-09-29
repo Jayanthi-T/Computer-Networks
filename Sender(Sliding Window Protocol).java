@@ -15,7 +15,6 @@ public class Slide_Sender
      Slide_Sender()
      {
      }
-   
      public void SendFrames()
      {
           if((SeqNum<=15)&&(SWS > (LFS - LAR)) )
@@ -30,8 +29,7 @@ public class Slide_Sender
                         pkt = pkt.concat(String.valueOf(data));
                         out.writeObject(pkt);
                         LFS = SeqNum;
-                        System.out.println("Sent  " + SeqNum + "  " + data);
-                            
+                        System.out.println("Sent  " + SeqNum + "  " + data); 
                         data++;
                         if(data=='f')
                              data='a';
