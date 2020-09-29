@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-
 public class arp_rarp
 {
      private static final String Command = "arp -a";
