@@ -5,7 +5,7 @@ def read():
 	with open("natt.txt") as f:
 		fl = f.readlines()
 		f.close()
-	for line in fl:
+	for line in fl: 
 		nat_table.append(line.split())
 	
 def write(val): 
