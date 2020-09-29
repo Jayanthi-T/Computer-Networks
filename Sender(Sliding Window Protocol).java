@@ -53,7 +53,6 @@ public class Slide_Sender
               try
               {  
                    SendFrames();      
-                  
                    String Ack = (String)in.readObject();
                    LAR = Integer.parseInt(Ack);
                    System.out.println("ack received : " + LAR);
