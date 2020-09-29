@@ -16,7 +16,6 @@ public class arp_rarp
           
           while(S.hasNext())
               bw.write(S.next());
-
           bw.close();
           fw.close();
      }
