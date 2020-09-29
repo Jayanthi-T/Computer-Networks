@@ -6,17 +6,13 @@ public class Slide_Receiver
 {
      ServerSocket reciever;
      Socket conc = null;
-   
      ObjectOutputStream out;
      ObjectInputStream in;
-   
      String ack, pkt, data="";
      int delay ;
-    
      int SeqNum = 0, RWS = 5;
      int LFR = 0;
      int LAF = LFR+RWS;
-  
      Random rand = new Random();
      
      Slide_Receiver()
