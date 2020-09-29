@@ -36,12 +36,9 @@ public class Slide_Receiver
               {  
                    pkt = (String)in.readObject();
                    String []str = pkt.split("\\s");
-                  
                    ack = str[0];
-                   data = str[1];
-                                                         
+                   data = str[1];                          
                    LFR = Integer.parseInt(ack);
-                  
                    if((SeqNum<=LFR)||(SeqNum>LAF))
                    {
                         System.out.println("\nMsg received : "+data);
