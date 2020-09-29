@@ -3,7 +3,7 @@ def read():
 	fl= []
 	with open("natt.txt") as f:
 		fl = f.readlines()
-		f.close()
+		f.close() 
 	for line in fl: 
 		nat_table.append(line.split())
 	
