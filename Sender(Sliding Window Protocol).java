@@ -61,7 +61,6 @@ public class Slide_Sender
               {
               }
           }
-         
           in.close();
           out.close();
           sender.close();
