@@ -6,7 +6,7 @@ import java.util.Scanner;
 import javax.swing.JFileChooser; 
    
 /* Dijkstra.java */  
-public class Dijkstra {
+public class Dijkstra  {
  
 static int Max_rooters;
 
