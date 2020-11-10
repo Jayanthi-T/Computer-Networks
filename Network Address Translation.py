@@ -40,7 +40,7 @@ def nat():
 
 def table():
 	print("NAT table:")
-	for i in nat_table:
+	for i in nat_table: 
 		print(i)
 	
 	
