@@ -1,5 +1,5 @@
 import random
-def read():
+def read(): 
 	fl= []
 	with open("natt.txt") as f:
 		fl = f.readlines()
