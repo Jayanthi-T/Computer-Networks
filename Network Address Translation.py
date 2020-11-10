@@ -10,7 +10,7 @@ def read():
 def write(val):  
 	if val == 2:
 		with open("natt.txt", 'w') as f:
-			for ip in nat_table:
+			for ip in nat_table: 
 				s = ip[0]+"\t"+ip[1]+"\n"
 				f.write(str(s))
 			f.close()
