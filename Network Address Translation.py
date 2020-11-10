@@ -5,7 +5,7 @@ def read():
 		fl = f.readlines()
 		f.close() 
 	for line in fl: 
-		nat_table.append(line.split())
+		nat_table.append(line.split()) 
 	
 def write(val):  
 	if val == 2:
