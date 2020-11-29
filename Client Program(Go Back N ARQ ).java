@@ -19,7 +19,7 @@ System.out.print("Enter the data for frame number " +h+ " --> ");
 data[i]=Integer.parseInt(br.readLine());
 h=(h+1)%x;
 }
-Socket client=new Socket("localhost",6262);
+Socket client=new Socket("localhost",6262); 
 ObjectInputStream ois=new ObjectInputStream(client.getInputStream());
 ObjectOutputStream oos=new ObjectOutputStream(client.getOutputStream());
 System.out.println("Connection with server is established.");
