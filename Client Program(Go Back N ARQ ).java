@@ -28,7 +28,7 @@ GoBackNListener listener=new GoBackNListener(ois,x);
 listener=new GoBackNListener(ois,x);
 listener.t.start();
 int strt=0;
-h=0;
+h=0; 
 oos.writeObject(x);
 do 
 {
