@@ -11,7 +11,7 @@ int m=Integer.parseInt(br.readLine());
 int x=(int)((Math.pow(2,m))-1);
 System.out.print("Enter number of frames you want to send : ");
 int count=Integer.parseInt(br.readLine()); 
-int data[]=new int[count];
+int data[]=new int[count]; 
 int h=0; 
 for(int i=0;i<count;i++) 
 {
