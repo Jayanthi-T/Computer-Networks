@@ -30,7 +30,7 @@ listener.t.start();
 int strt=0;
 h=0; 
 oos.writeObject(x);
-do 
+do  
 { 
 int c=h;
 for(int i=h;i<count;i++)
