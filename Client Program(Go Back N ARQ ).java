@@ -10,7 +10,7 @@ System.out.print("Enter the value of n : ");
 int m=Integer.parseInt(br.readLine());
 int x=(int)((Math.pow(2,m))-1);
 System.out.print("Enter number of frames you want to send : ");
-int count=Integer.parseInt(br.readLine());
+int count=Integer.parseInt(br.readLine()); 
 int data[]=new int[count];
 int h=0;
 for(int i=0;i<count;i++)
