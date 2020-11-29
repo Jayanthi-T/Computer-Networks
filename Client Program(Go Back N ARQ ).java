@@ -38,7 +38,7 @@ for(int i=h;i<count;i++)
 System.out.print(" |:| "+c+" |:| ");
 c=(c+1)%x;
 } 
-System.out.println();
+System.out.println(); 
 System.out.println();
 h=strt;
 for(int i=strt;i<x;i++)
