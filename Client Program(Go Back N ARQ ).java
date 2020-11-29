@@ -13,7 +13,7 @@ System.out.print("Enter number of frames you want to send : ");
 int count=Integer.parseInt(br.readLine()); 
 int data[]=new int[count];
 int h=0; 
-for(int i=0;i<count;i++)
+for(int i=0;i<count;i++) 
 {
 System.out.print("Enter the data for frame number " +h+ " --> ");
 data[i]=Integer.parseInt(br.readLine());
