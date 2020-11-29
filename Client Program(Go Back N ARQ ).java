@@ -58,7 +58,7 @@ System.out.println();
 strt=listener.reply+1;
 flag=false;
 }
-else
+else 
 {
 System.out.println("All elements are sent successfully. Exiting");
 flag=true;
